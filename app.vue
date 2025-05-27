@@ -372,13 +372,13 @@
 const frontendSkills = [
   { name: "Vue.js", level: 95, icon: "i-simple-icons-vuedotjs" },
   { name: "Nuxt.js 3", level: 95, icon: "i-simple-icons-nuxtdotjs" },
-  { name: "React", level: 60, icon: "i-simple-icons-react" },
-  { name: "React Native Expo", level: 60, icon: "i-simple-icons-expo" },
+  { name: "React", level: 40, icon: "i-simple-icons-react" },
+  { name: "React Native Expo", level: 40, icon: "i-simple-icons-expo" },
   { name: "TypeScript", level: 75, icon: "i-simple-icons-typescript" },
   { name: "HTML/CSS", level: 90, icon: "i-simple-icons-html5" },
   { name: "JavaScript", level: 90, icon: "i-simple-icons-javascript" },
   { name: "Bootstrap 5", level: 90, icon: "i-simple-icons-bootstrap" },
-  { name: "Tailwind CSS", level: 70, icon: "i-simple-icons-tailwindcss" },
+  { name: "Tailwind CSS", level: 60, icon: "i-simple-icons-tailwindcss" },
 ];
 
 const backendSkills = [
@@ -407,40 +407,46 @@ const devopsSkills = [
   { name: "Git", level: 90, icon: "i-simple-icons-git" },
   { name: "GitLab CI/CD", level: 85, icon: "i-simple-icons-gitlab" },
   { name: "GitHub Actions", level: 50, icon: "i-simple-icons-github" },
-  { name: "Jenkins", level: 80, icon: "i-simple-icons-jenkins" },
-  { name: "Cloudflare", level: 70, icon: "i-simple-icons-cloudflare" },
-  { name: "Kubernetes", level: 40, icon: "i-simple-icons-kubernetes" },
+  { name: "Jenkins", level: 60, icon: "i-simple-icons-jenkins" },
+  { name: "Cloudflare", level: 50, icon: "i-simple-icons-cloudflare" },
+  { name: "Kubernetes", level: 30, icon: "i-simple-icons-kubernetes" },
 ];
 
 const projects = [
   {
-    title: "Programmer Leader",
-    description:
-      "Bigpotential Company - Worked as a Programmer Leader managing the development team for 3 years",
-    tags: ["Leadership", "Team Management", "Development"],
+    title: "DBD HR",
+    description: "ระบบบริหารบุคลากรของกรมพัฒนาธุรกิจการค้า กระทรวงพาณิชย์",
+    tags: ["การลง ลงเวลา", "ทะเบียนบุคลากร", "ประเมินผลการปฎิบัติงาน"],
   },
   {
-    title: "Web Programmer",
+    title: "DFT INSPACE",
     description:
-      "ตำแหน่ง Front End Developer - พัฒนาเว็บไซต์และแอปพลิเคชันด้วย Nuxt.js และเทคโนโลยีล่าสุด",
-    tags: ["Nuxt.js", "Frontend", "Web Development"],
+      "ระบบออกใบอนุญาตรับรองถิ่นกำเนิน กรมการค้าต่างประเทศ กระทรวงพาณิชย์",
+    tags: [
+      "ออกใบอนุญาต",
+      "ส่งข้อมูลเพื่อแจ้งนำเข้า - ส่งออก",
+      "กำหนดเงื่อนไขการตรวจสินค้า",
+    ],
   },
   {
-    title: "Back End Developer",
+    title: "DOA NSW",
     description:
-      "ตำแหน่ง Back End Developer - พัฒนาระบบหลังบ้านด้วย Fastify, NestJS และ PHP",
-    tags: ["Fastify", "NestJS", "PHP", "Backend"],
+      "ระบบแจ้งใบอนุญาตเพื่อขอนำเข้า - ส่งออกสินค้าเกษตร กระทรวงเกษตรและสหกรณ์",
+    tags: [
+      "ใบอนุญาต",
+      "ส่งข้อมูลเพื่อแจ้งนำเข้า - ส่งออก",
+      "รับ - ส่งข้อมูลกับกรมศุลกากร",
+    ],
   },
   {
-    title: "การศึกษา",
-    description:
-      "มหาวิทยาลัยราชภัฏบุรีรัมย์ - ปริญญาตรี วิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์ เกรดเฉลี่ย 2.48",
-    tags: ["Education", "Computer Science", "Bachelor Degree"],
+    title: "TRD_ASSET",
+    description: "ระบบจัดการทรัพย์สิน กรมธนารักษ์ กระทรวงการคลัง",
+    tags: ["ข้อมูลทรัพย์สิน", "การอนุรักษ์ทรัพย์สิน", "ประเมินทรัพย์สิน"],
   },
   {
-    title: "Language Skills",
-    description: "Thai - Native, English - Intermediate",
-    tags: ["Thai", "English", "Language Skills"],
+    title: "SWU HR",
+    description: "ระบบบริหารบุคลากร มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    tags: ["ข้อมูลบุคลากร", "โครงสร้างองค์กร", "การสรรหาบุคลากร"],
   },
   {
     title: "Soft Skills",
